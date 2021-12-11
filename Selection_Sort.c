@@ -18,8 +18,8 @@ int main(){
                 add = j+1;
             }
         }
-            a[add] = a[i];
-            a[i] = max;
+        a[add] = a[i];
+        a[i] = max;
         printf("Pass %d -->",i+1);
         for(j = 0; j < n; j++) printf("%3d",a[j]);
         printf("\n");
